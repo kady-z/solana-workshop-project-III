@@ -1,6 +1,8 @@
-struct Input {  
-    pub : 132,
-    pub b: 132
+pub struct Input {
+    pub a: i32,
+    pub b: i32
 }
 
-pub fn sum(i: Input)
+pub fn sum(i: Input) -> i32 {
+    i.a + i.b
+}
